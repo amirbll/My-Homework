@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Balali-14-menu03</title>
+	<style type="text/css">
+		* {
+			padding : 0;
+			margin  : 0;
+		}
+
+		body {
+			background-image : url('bg.jpg');
+		}
+
+		.badboy {
+			width  : 0 ;
+			height : 0 ;
+			clear  : both ;
+		}
+
+		nav.top {
+			margin-left : 150px;
+			margin-top  : 35px;
+		}
+
+		nav.top menu {
+			list-style-type : none;
+		}
+
+		nav.top li {
+			position: relative;
+			float       : left;
+			margin-left : 20px;
+			background  : #00ACEE;
+		}
+
+		nav.top li:first-child {
+			margin-left : none;
+		}
+
+		nav.top a {
+			color       : white;
+			display     : block;
+			padding     : 50px 7px 5px;
+			font-family : "Courier New", Courier, monospace;
+			font-size   : 24px;
+			font-weight : bold;
+			letter-spacing  : -1px;
+			text-transform  : capitalize;
+			text-decoration : none;
+		}
+
+		div.bottomtri{
+			position: absolute;
+			border-style:solid;
+			border-width: 7px;
+			border-color: #00ACEE transparent transparent transparent;  
+			border-right-width: 3px;
+			margin-left: 20px;
+		}
+
+		div.lefttri{
+			position: absolute;
+			border-style: solid;
+			border-width: 0px 3px 84px;
+			border-color:transparent #00ACEE transparent transparent;
+			right: 100%;
+		}
+
+		div.righttri{
+			position: absolute;
+			border-style: solid;
+			border-width: 0px 2px 84px;
+			border-color:transparent transparent transparent #00ACEE;
+			left: 100%;
+		}
+
+	</style>
+</head>
+<body>
+	<nav class="top">
+			<menu>
+				<li>
+					<div class="lefttri"></div>
+					<div class="righttri"></div>
+					<a href="#">shop!</a>
+					<div class="bottomtri"></div>
+				</li>
+				<li>
+					<div class="lefttri"></div>
+					<div class="righttri"></div>
+					<a href="#">designers*</a>
+					<div class="bottomtri"></div>
+				</li>
+				<li>
+					<div class="lefttri"></div>
+					<div class="righttri"></div>
+					<a href="#">info?</a>
+					<div class="bottomtri"></div>
+				</li>
+				<li>
+					<div class="lefttri"></div>
+					<div class="righttri"></div>
+					<a href="#">login!</a>
+					<div class="bottomtri"></div>
+				</li>
+			</menu>
+		</nav>
+		<div class="badboy"></div>
+</body>
+</html>
