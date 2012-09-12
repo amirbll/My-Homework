@@ -1,0 +1,118 @@
+body {
+	padding-top		:20px;
+	padding-bottom	: 10px;
+}
+
+.container div.info {
+	min-height	: 30px;
+	outline		: 1px solid orange;
+}
+
+header {
+	margin-top	: 10px;
+	min-height	: 70px;
+	outline		: 1px solid magenta;
+}
+
+header div.icon {
+	margin-top	: 10px;
+	margin-left	: 10px;
+	min-height	: 50px;
+	outline		: 1px dashed darkmagenta;
+}
+
+header div.text {
+	margin-top	: 40px;
+	min-height	: 20px;
+	outline		: 1px dashed darkmagenta;
+}
+
+header div.menu {
+	margin-top	: 10px;
+	min-height	: 50px;
+	outline		: 1px dashed darkmagenta;
+}
+
+div.content {
+	margin-top	: 10px;
+	padding-top	: 15px;
+	padding-left: 15px;
+	min-height	: 400px;
+	outline		: 1px solid darkorange;
+}
+
+div.content div.banner {
+	min-height	: 370px;
+	outline		: 1px dashed red;
+}
+div.content div.text {
+	min-height	: 390px;
+	outline		: 1px dashed red;
+}
+
+div.news {
+	padding		: 0 10px;
+	min-height	: 302px;
+	outline		: 1px solid brown;
+}
+
+div.news div.top {
+	margin-top	: 1px;
+	min-height	: 20px;
+	outline		: 1px dashed green;
+}
+
+div.news div.wx div.left {
+	width		: 225px;
+	margin-top	: 5px;
+	min-height	: 250px;
+	outline		: 1px dashed green;
+}
+
+div.news div.bottom {
+	margin-top	: 5px;
+	min-height	: 20px;
+	outline		: 1px dashed green;
+}
+
+div.blog {
+	margin-top	: 10px;
+	padding 	: 15px 10px;
+	min-height		: 300px;
+	outline		: 1px solid red;
+}
+
+div.blog div.left {
+	height		: 300px;
+	outline		: 1px dashed red;
+}
+
+div.blog div.right {
+	height		: 300px;
+	outline		: 1px dashed red;
+}
+
+div.blog div.center {
+	margin-left: 440px;
+	margin-right: 240px;
+	height		: 300px;
+	outline		: 1px dashed red;
+}
+
+footer {
+	margin-top	: 10px;
+	min-height	: 70px;
+}
+
+footer div.left {
+	margin-top	: 10px;
+	min-height	: 50px;
+	outline		: 1px dashed black; 
+}
+
+footer div.right {
+	margin-top	: 10px;
+	min-height	: 40px;
+	outline		: 1px dashed black; 
+}
+
