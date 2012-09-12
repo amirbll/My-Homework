@@ -1,0 +1,102 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <title>Balali-13-menu02</title>
+    <style type="text/css">
+        * {
+            padding : 0;
+            margin  : 0;
+        }
+
+        .badboy {
+            width  : 0;
+            height : 0;
+            clear  : both;
+        }
+
+        nav.menu {
+            width: 950px;
+            margin-top   : 10px;
+            padding-left : 30px;
+            background   : #aaa;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 7px;
+        }
+
+        nav.menu menu {
+            list-style-type : none;
+        }
+
+        nav.menu li {
+            float       : left;
+            height      : 43px;
+            position: relative;
+        }
+
+        nav.menu li:hover {
+            background  : #888; 
+            border-radius: 9px;
+            border-right: 2px groove #555;
+        }
+
+        nav.menu a {
+            color       : #555;
+            display     : block;
+            padding     : 11px 14px 9px;
+            font-family : "Times New Roman", Times, serif;
+            font-size   : 18px;
+            text-transform  : capitalize;
+            text-decoration : none;
+            white-space: nowrap;
+        }
+        nav.menu li menu{
+            min-width: 100%;
+            background: #aaa;
+            position:absolute;  
+            left: 0;
+            top: 100%;
+            display: none;
+            border-radius: 9px;
+        }
+        nav.menu li li{
+            float: none;
+            border: none;
+        }
+        nav.menu li:hover menu{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <menu>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about me</a></li>
+            <li>
+                <a href="#">blog</a>
+                <menu>
+                    <li><a href="#">blog 1</a></li>
+                    <li><a href="#">blog 2</a></li>
+                    <li><a href="#">blog 3</a></li>
+                    <li><a href="#">blog 4</a></li>
+                </menu>
+            </li>
+            <li><a href="#">portfolio</a></li>
+            <li>
+                <a href="#">gallery</a>
+                <menu>
+                    <li><a href="#">gallery 1</a></li>
+                    <li><a href="#">gallery 2</a></li>
+                    <li><a href="#">gallery 3</a></li>
+                    <li><a href="#">gallery 4</a></li>
+                </menu>
+            </li>
+            <li><a href="#">contact me</a></li>
+        </menu>
+        <div class="badboy"></div>
+    </nav>
+</body>
+</html>
