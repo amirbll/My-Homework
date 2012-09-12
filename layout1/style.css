@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding-top:10px;
+	padding-bottom: 10px; 
+	background-color: #F2F2F2;
+}
+
+div.container{
+	width: 950px;
+	height: 870px;
+	margin:0 auto;
+	background-image: url('images/backguid.jpg');
+	background-repeat: no-repeat;
+}
+
+div.container div{
+	outline: 1px dashed orange;
+}
+
+header{
+	min-height: 140px;
+	border: 1px dashed orange;
+}
+
+header div.left{
+	float: left;
+	margin-top: 47px;
+	width: 370px;
+	min-height: 50px;
+}
+
+header div.right{
+	float: right;
+	margin-top: 47px;
+	width: 370px;
+	min-height: 50px;
+}
+
+header div.logo{
+	margin:0 auto;
+	width: 150px;
+	min-height: 135px;
+}
+
+div.center{
+	margin-top: 1px;
+	min-height: 530px;
+}
+
+div.center div.image{
+	float: right;
+	width: 400px;
+	min-height: 500px;
+}
+
+div.center div.text{
+	margin-right: 405px;
+	width: auto;
+	min-height: 500px;
+	outline: 1px dashed blue;
+}
+
+footer{
+	min-height: 198px;
+	outline: 1px dashed blue;
+}
+
+footer div{
+	outline: 1px dashed green;
+}
+
+footer div.image{
+	min-height: 90px;
+}
+
+footer div.icon{
+	min-height: 50px;
+}
+
+footer div.copyright{
+	min-height: 55px;
+}
