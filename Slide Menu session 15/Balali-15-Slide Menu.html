@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Balali-15-Slide Menu</title>
+	<style type="text/css">
+		
+		*{
+			padding: 0;
+			margin:0;
+		}
+
+		.slidemenu {
+			width: 750px;
+			height: 300px;
+			margin:50px auto 0;
+			overflow: hidden;
+		}
+
+		.slidemenu ul {
+			height: inherit;
+			list-style-type: none;
+			width: 1200px;
+		}
+
+		.slidemenu li {
+			float: left;
+			width: 108px;
+			height: inherit;
+			-webkit-transition: width 1000ms;
+			-moz-transition: width 500ms;
+			-ms-transition: width 500ms;
+			-o-transition: width 500ms;
+			transition: width 500ms;
+		}
+
+		.slidemenu:hover li {
+			width: 50px;
+		}
+
+		.slidemenu li:hover{
+			width: 450px;
+		}
+
+		.slidemenu li:last-child{
+			padding-right: 200px;
+		}
+
+	</style>
+</head>
+<body>
+	<section class="slidemenu">
+		<ul>
+			<li style="background-image:url('images/1.jpg')"></li>
+			<li style="background-image:url('images/2.jpg')"></li>
+			<li style="background-image:url('images/3.jpg')"></li>
+			<li style="background-image:url('images/4.jpg')"></li>
+			<li style="background-image:url('images/5.jpg')"></li>
+			<li style="background-image:url('images/6.jpg')"></li>
+			<li style="background-image:url('images/7.jpg')"></li>
+		</ul>
+	</section>
+</body>
+</html>
