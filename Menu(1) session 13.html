@@ -1,0 +1,94 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Balali-13-submenu</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		div.badboy{
+			width: 0px;
+			height: 0px;
+			clear: both;
+		}
+		nav.menu{
+			margin-top: 10px;
+			padding-left: 50px;
+			border: 1px solid #006496;
+			background:#006496;
+		}
+		nav.menu menu{
+			list-style-type: none;
+		}
+		nav.menu li{
+			position:relative;
+			float: left;
+			border-right: 1px dashed white;
+		}
+		nav.menu > menu > li:first-child{
+			border-left: 1px dashed white;
+		}
+		nav.menu li:hover{
+			background:#0078a0;
+		}
+		nav.menu a{
+			color: #FFF;
+			display: block;
+			text-decoration: none;
+			text-transform: capitalize;
+			font-size: 15px;
+			padding: 7px 15px;
+			font-family:  Verdana, sans-serif;
+			white-space: nowrap;
+		}
+		nav.menu li menu{
+			min-width: 100%;
+			position:absolute;
+			left: 0;
+			top: 100%;
+			display: none;
+		}
+		nav.menu li li{
+			float: none;
+			background:#006496;
+			border: none;
+			border-top: 1px dashed white;
+		}
+		nav.menu li:hover menu{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<nav class="menu">
+		<menu>
+			<li><a href="#">home</a></li>
+			<li><a href="#">about me</a></li>
+			<li>
+				<a href="#">profile</a>
+				<menu>
+					<li><a href="#">profile 1</a></li>
+					<li><a href="#">profile 2</a></li>
+					<li><a href="#">profile 3</a></li>
+					<li><a href="#">profile 4</a></li>
+				</menu>
+			</li>
+			<li><a href="#">blog</a></li>
+			<li>
+				<a href="#">gallery</a>
+				<menu>
+					<li><a href="#">gallery 1</a></li>
+					<li><a href="#">gallery 2</a></li>
+					<li><a href="#">gallery 3</a></li>
+					<li><a href="#">gallery 4</a></li>
+				</menu>
+			</li>
+			<li><a href="#">contact me</a></li>
+		</menu>
+	<div class="badboy"></div>
+	</nav>
+</body>
+</html>
