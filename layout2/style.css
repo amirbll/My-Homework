@@ -1,0 +1,184 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding-top      :20px;
+	padding-bottom   :10px;
+	background-color :#f5f4f2;
+}
+
+div.container {
+	padding-top: 1px;
+	width   :950px;
+	margin  :0 auto;
+	background-image:url('images/backguid.jpg');
+	background-repeat:no-repeat;
+	outline: 1px dashed black;
+}
+
+.badboy{ 
+	clear      :both;
+	width      :0 !important;
+	height     :0 !important;
+	min-height :0 !important;
+	min-width  :0 !important;
+	float      :none !important;
+	overflow   :hidden;
+}
+
+header {
+	margin-top: 1px;
+	width: 950px;
+	min-height:202px;
+	outline: 1px solid red;
+}
+
+header div{
+	outline: 1px dashed orange;
+}
+
+header div.logo {
+	float: left;
+	margin-left: 50px;
+	width:200px;
+	min-height: 200px;
+}
+
+header div.right {
+	margin-left: auto;
+	width: 650px;
+	min-height: 199px;
+}
+
+header div.menu {
+	margin-left: 10px;
+	width: 500px;
+	min-height:50px;
+}
+
+header div.text{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 635px;
+	min-height: 125px;
+}
+
+div.banner{
+	margin-top: 3px;
+	width: 950px;
+	height: 345px;
+	outline: 1px solid green;
+}
+
+div.news {
+	padding-top: 1px;
+	margin-top: 3px;
+	width: 950px;
+	min-height: 295px;
+	outline: 1px solid blue;
+}
+
+div.news div{
+	outline: 1px dashed black;
+}
+
+div.news div.left{
+	margin-left: 1px;
+	margin-top: 1px;
+	float: left;
+	width: 313px;
+	min-height: 293px;
+}
+
+div.news div.right{
+	float: right;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 313px;
+	min-height: 293px;
+}
+
+div.news div.center{
+	margin     :1px 317px;
+	min-height :293px;
+}
+
+footer{
+	padding-top:1px;
+	margin-top: 3px; 
+	outline: 1px solid red;
+	min-height:355px;
+}
+
+footer div{
+	outline: 1px dashed darkmagenta;
+}
+
+footer div.bottommenu{
+	margin-top: 1px;
+	min-height: 243px;
+}
+
+footer div.footer{
+	padding-top: 1px;
+	margin-top: 3px;
+	min-height: 105px;
+}
+
+footer div.menu{
+	float: left;
+	width: 240px;
+	height: 240px;
+}
+
+footer div.left{
+	float: left;
+	width: 240px;
+	height: 240px;
+}
+
+footer div.contact{
+	float: left;
+	width: 235px;
+	height: 240px;
+}
+
+footer div.right{
+	float: right;
+	width: 235px;
+	height: 240px;
+}
+
+footer div.copyright{
+	float: left;
+	margin-top: 15px;
+	width: 300px;
+	min-height: 50px;
+}
+
+div.footer div.rightbox{
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+	width: 105px;
+	min-height: 20px;
+}
+
+div.footer div.leftbox{
+	float: right;
+	margin-top: 30px;
+	margin-right: 9px;
+	width: 105px;
+	min-height: 20px;
+}
+
+div.footer div.icon{
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+	width: 105px;
+	min-height: 20px;
+}
