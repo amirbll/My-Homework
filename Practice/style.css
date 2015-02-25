@@ -1,0 +1,14 @@
+.main{
+	width: 1200px;
+	margin: 60px auto 0;
+	border: 1px dashed blue;
+}
+.header{
+	border: 1px dashed red;
+	left: 0;
+	right: 0;
+}
+.leftbox{
+	min-height: 600px;
+	border: 1px dashed green;
+}
