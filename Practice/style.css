@@ -12,3 +12,12 @@
 	min-height: 600px;
 	border: 1px dashed green;
 }
+.newsbox{
+	min-height: 400px;
+	border: 1px dashed orange;
+}
+.rightbox{
+	width: 210px;
+	min-height: 600px;
+	border: 1px dashed magenta;
+}
