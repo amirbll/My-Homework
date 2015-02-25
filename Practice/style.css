@@ -25,6 +25,10 @@ body{
 	border: 1px dashed magenta;
 }
 .textbox{
+	min-height: 800px;
 	margin-right: 220px;
 	border: 1px dashed darkorange;
+}
+.bottom{
+	border: 1px dashed darkgreen;
 }
