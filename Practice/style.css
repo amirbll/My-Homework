@@ -29,6 +29,16 @@ body{
 	margin-right: 220px;
 	border: 1px dashed darkorange;
 }
+.data{
+	border: 1px dashed darkred;
+}
+.data .img{
+	border: 1px dashed red;
+}
+.data .txt{
+	padding-right: 20px;
+	border: 1px dashed green;
+}
 .bottom{
 	border: 1px dashed darkgreen;
 }
